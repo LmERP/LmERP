@@ -1,0 +1,13 @@
+[Unit]
+Description=lxxerp16
+
+[Service]
+Type=simple
+PermissionsStartOnly=true
+User=root2
+ExecStart=/bin/bash /home/www/w_pro/pro_lxxerp/codes/v1.0_lxxerp16/w_lin/start16.sh
+
+#StandardOutput=journal+console
+
+[Install]
+WantedBy=multi-user.target

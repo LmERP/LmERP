@@ -1,0 +1,253 @@
+2024-06-13 07:32:07,629 3780 WARNING ? py.warnings: E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\tools\config.py:565: DeprecationWarning: The longpolling-port is a deprecated alias to the gevent-port option, please use the latter.
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\xxserp-bin", line 8, in <module>
+    odoo.cli.main()
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\cli\server.py", line 127, in main
+    odoo.tools.config.parse_config(args)
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\tools\config.py", line 378, in parse_config
+    self._warn_deprecated_options()
+  File "E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\odoo\tools\config.py", line 565, in _warn_deprecated_options
+    warnings.warn(
+ 
+2024-06-13 07:32:07,630 3780 INFO ? odoo: Odoo version 16.0-20230920 
+2024-06-13 07:32:07,630 3780 INFO ? odoo: Using configuration file at E:\www\w_pro\w_pro_xxserp\pro_xxserp_t1\codes\v1\v1.0_xxserp16\xxserp_dev.conf 
+2024-06-13 07:32:07,630 3780 INFO ? odoo: addons paths: ['E:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\odoo\\addons', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\storage\\odoo\\addons\\16.0', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\odoo\\addons', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\account', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\sale', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\warehouse', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\transport', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\manufacture', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\hr', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\tool', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\other', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\tmp_pre', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\tmp_test', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\extend\\tmp_tmp', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\account', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\sale', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\warehouse', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\transport', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\manufacture', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\hr', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\tool', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\other', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\tmp_pre', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\tmp_test', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons\\standard\\tmp_tmp', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_a', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_b', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_c', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_d', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_e', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_f', 'e:\\www\\w_pro\\w_pro_xxserp\\pro_xxserp_t1\\codes\\v1\\v1.0_xxserp16\\addons_dev\\dev_g'] 
+2024-06-13 07:32:07,630 3780 INFO ? odoo: database: xxserp_db@localhost:3308 
+2024-06-13 07:32:08,215 3780 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2024-06-13 07:32:09,643 3780 WARNING ? odoo.service.server: 'watchdog' module not installed. Code autoreload feature is disabled 
+2024-06-13 07:32:10,523 3780 INFO ? odoo.service.server: HTTP service (werkzeug) running on WIN-202401ADE7C:8109 
+2024-06-13 07:33:05,564 3780 INFO dev_2_v1_xxserp_dev odoo.modules.loading: loading 1 modules... 
+2024-06-13 07:33:05,587 3780 INFO dev_2_v1_xxserp_dev odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2024-06-13 07:33:05,969 3780 INFO dev_2_v1_xxserp_dev odoo.modules.loading: loading 8 modules... 
+2024-06-13 07:33:06,511 3780 INFO dev_2_v1_xxserp_dev odoo.modules.loading: 8 modules loaded in 0.54s, 0 queries (+0 extra) 
+2024-06-13 07:33:07,020 3780 INFO dev_2_v1_xxserp_dev odoo.modules.loading: Modules loaded. 
+2024-06-13 07:33:07,194 3780 INFO dev_2_v1_xxserp_dev odoo.modules.registry: Registry loaded in 3.803s 
+2024-06-13 07:33:07,199 3780 INFO dev_2_v1_xxserp_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-13 07:33:07,496 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:07] "GET / HTTP/1.1" 303 - 27 3.387 1.444
+2024-06-13 07:33:07,564 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:07] "GET /web HTTP/1.1" 303 - 2 0.005 0.059
+2024-06-13 07:33:08,567 3780 WARNING dev_2_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2024-06-13 07:33:08,568 3780 WARNING dev_2_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2024-06-13 07:33:08,723 3780 WARNING dev_2_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'XX ERP'" in template 181. Replace by @t-out 
+2024-06-13 07:33:08,725 3780 WARNING dev_2_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2024-06-13 07:33:08,725 3780 WARNING dev_2_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2024-06-13 07:33:23,633 3780 INFO dev_2_v1_xxserp_dev odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2024-06-13 07:33:23,635 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:23] "GET /web/login HTTP/1.1" 200 - 106 1.329 14.739
+2024-06-13 07:33:35,620 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_aaa', defaulting to LGPL-3 
+2024-06-13 07:33:35,620 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_aaa', defaulting to LGPL-3 
+2024-06-13 07:33:35,634 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_decimal_precision_change', defaulting to LGPL-3 
+2024-06-13 07:33:35,635 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_decimal_precision_change', defaulting to LGPL-3 
+2024-06-13 07:33:35,641 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_manage', defaulting to LGPL-3 
+2024-06-13 07:33:35,641 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_manage', defaulting to LGPL-3 
+2024-06-13 07:33:35,647 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_aaa', defaulting to LGPL-3 
+2024-06-13 07:33:35,647 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_aaa', defaulting to LGPL-3 
+2024-06-13 07:33:35,659 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_bbb', defaulting to LGPL-3 
+2024-06-13 07:33:35,660 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_bbb', defaulting to LGPL-3 
+2024-06-13 07:33:35,674 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-06-13 07:33:35,675 3780 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'dev_z_demo', defaulting to LGPL-3 
+2024-06-13 07:33:35,843 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:35] "GET /web/assets/18-efd3db1/web.assets_frontend.min.css HTTP/1.1" 200 - 15 0.026 11.863
+2024-06-13 07:33:36,003 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:36] "GET /web/binary/company_logo HTTP/1.1" 304 - 13 0.086 11.960
+2024-06-13 07:33:36,032 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:36] "GET /web/assets/19-d5051b9/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 6 0.010 0.172
+2024-06-13 07:33:36,836 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:36] "GET /web/assets/20-0b406d6/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 6 0.005 0.478
+2024-06-13 07:33:38,012 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:38] "GET /web/webclient/translations/1718264016966 HTTP/1.1" 200 - 6 0.005 1.038
+2024-06-13 07:33:38,411 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:38] "GET /web/webclient/translations/1718264018019 HTTP/1.1" 200 - 6 0.012 0.063
+2024-06-13 07:33:42,624 3780 INFO dev_2_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:33:42] "GET /web/database/manager HTTP/1.1" 200 - 5 0.012 0.455
+2024-06-13 07:34:01,488 3780 INFO None odoo.service.db: Create database `dev_v1_xxserp_dev`. 
+2024-06-13 07:34:11,467 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading 1 modules... 
+2024-06-13 07:34:11,467 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module base (1/1) 
+2024-06-13 07:34:11,495 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module base: creating or updating database tables 
+2024-06-13 07:34:23,987 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-06-13 07:34:23,989 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-06-13 07:34:23,989 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-06-13 07:34:28,917 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.user_id 
+2024-06-13 07:34:28,917 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-06-13 07:34:28,918 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.display_name 
+2024-06-13 07:34:28,918 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.company_registry 
+2024-06-13 07:34:28,918 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-06-13 07:34:28,918 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.partner.partner_share 
+2024-06-13 07:34:30,211 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.currency.decimal_places 
+2024-06-13 07:34:30,977 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.company.logo_web 
+2024-06-13 07:34:31,915 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.users.signature 
+2024-06-13 07:34:31,916 3780 INFO dev_v1_xxserp_dev odoo.models: Prepare computation of res.users.share 
+2024-06-13 07:34:46,436 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_bank.xml 
+2024-06-13 07:34:46,470 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res.lang.csv 
+2024-06-13 07:34:46,515 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-06-13 07:34:46,648 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-06-13 07:34:46,798 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-06-13 07:34:47,201 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-06-13 07:34:47,355 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-06-13 07:34:47,938 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-06-13 07:34:47,958 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-06-13 07:34:48,414 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-06-13 07:34:48,483 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2024-06-13 07:34:48,498 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/security/base_groups.xml 
+2024-06-13 07:34:48,881 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/security/base_security.xml 
+2024-06-13 07:34:48,996 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/base_menus.xml 
+2024-06-13 07:34:49,245 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-06-13 07:34:49,306 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-06-13 07:34:49,345 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-06-13 07:34:50,894 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-06-13 07:34:51,211 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-06-13 07:34:51,294 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-06-13 07:34:51,358 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-06-13 07:34:51,429 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-06-13 07:34:51,468 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-06-13 07:34:51,500 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-06-13 07:34:51,533 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-06-13 07:34:51,724 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-06-13 07:34:51,761 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-06-13 07:34:51,798 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-06-13 07:34:51,831 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-06-13 07:34:51,864 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-06-13 07:34:51,929 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-06-13 07:34:51,961 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-06-13 07:34:51,976 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-06-13 07:34:51,987 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-06-13 07:34:52,018 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-06-13 07:34:52,049 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-06-13 07:34:52,072 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-06-13 07:34:52,169 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-06-13 07:34:52,246 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-06-13 07:34:52,325 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-06-13 07:34:52,351 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-06-13 07:34:52,368 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-06-13 07:34:52,412 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-06-13 07:34:52,433 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-06-13 07:34:52,454 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-06-13 07:34:52,483 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-06-13 07:34:52,499 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-06-13 07:34:52,523 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-06-13 07:34:52,547 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2024-06-13 07:34:52,557 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-06-13 07:34:52,601 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-06-13 07:34:52,636 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-06-13 07:34:52,790 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-06-13 07:34:52,827 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-06-13 07:34:52,968 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-06-13 07:34:53,015 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-06-13 07:34:53,077 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-06-13 07:34:53,131 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-06-13 07:34:53,284 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-06-13 07:34:53,318 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-06-13 07:34:53,333 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-06-13 07:34:53,371 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/views/onboarding_views.xml 
+2024-06-13 07:34:53,416 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-06-13 07:34:53,653 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:34:54,299 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module base loaded in 42.83s, 8062 queries (+8066 other) 
+2024-06-13 07:34:54,299 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: 1 modules loaded in 42.83s, 8062 queries (+8066 extra) 
+2024-06-13 07:34:54,336 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:34:54,977 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: updating modules list 
+2024-06-13 07:34:54,978 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-06-13 07:34:55,501 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading 8 modules... 
+2024-06-13 07:34:55,539 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module web (2/8) 
+2024-06-13 07:34:55,561 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module web: creating or updating database tables 
+2024-06-13 07:34:56,185 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-06-13 07:34:56,205 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-06-13 07:34:56,301 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/report_templates.xml 
+2024-06-13 07:34:56,518 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-06-13 07:34:56,539 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-06-13 07:34:56,653 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/lazy_assets.xml 
+2024-06-13 07:34:56,669 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-06-13 07:34:56,905 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-06-13 07:34:56,931 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web/data/report_layout.xml 
+2024-06-13 07:34:57,046 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='company.id' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,046 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='font' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,046 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,047 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,047 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,047 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,048 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,048 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,048 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,048 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,049 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,049 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,049 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,050 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,050 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,050 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,050 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,051 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,051 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,051 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,051 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,052 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,052 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,052 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,053 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,053 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='primary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,053 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='secondary' in template 209. Replace by @t-out 
+2024-06-13 07:34:57,073 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:34:57,159 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module web loaded in 1.62s, 960 queries (+960 other) 
+2024-06-13 07:34:57,159 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module auth_totp (3/8) 
+2024-06-13 07:34:57,176 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-06-13 07:34:57,894 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-06-13 07:34:57,937 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-06-13 07:34:57,954 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-06-13 07:34:57,976 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-06-13 07:34:58,031 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-06-13 07:34:58,245 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-06-13 07:34:58,297 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module auth_totp: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:34:58,323 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module auth_totp loaded in 1.16s, 197 queries (+197 other) 
+2024-06-13 07:34:58,323 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module base_import (4/8) 
+2024-06-13 07:34:58,348 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module base_import: creating or updating database tables 
+2024-06-13 07:35:02,889 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-06-13 07:35:02,974 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module base_import: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:03,004 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module base_import loaded in 4.68s, 895 queries (+895 other) 
+2024-06-13 07:35:03,004 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module bus (5/8) 
+2024-06-13 07:35:03,021 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module bus: creating or updating database tables 
+2024-06-13 07:35:03,763 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-06-13 07:35:03,786 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module bus: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:03,799 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module bus loaded in 0.80s, 107 queries (+107 other) 
+2024-06-13 07:35:03,799 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2024-06-13 07:35:03,827 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:03,836 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module web_kanban_gauge loaded in 0.04s, 13 queries (+13 other) 
+2024-06-13 07:35:03,836 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module web_tour (7/8) 
+2024-06-13 07:35:03,853 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-06-13 07:35:04,135 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-06-13 07:35:04,152 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-06-13 07:35:04,167 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-06-13 07:35:04,214 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_tour: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:04,229 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module web_tour loaded in 0.39s, 110 queries (+110 other) 
+2024-06-13 07:35:04,229 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Loading module web_editor (8/8) 
+2024-06-13 07:35:04,256 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-06-13 07:35:05,341 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-06-13 07:35:05,361 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-06-13 07:35:05,372 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-06-13 07:35:05,459 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-06-13 07:35:05,544 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_editor: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:05,602 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Module web_editor loaded in 1.37s, 847 queries (+847 other) 
+2024-06-13 07:35:05,602 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: 8 modules loaded in 10.06s, 3129 queries (+3129 extra) 
+2024-06-13 07:35:05,825 3780 INFO dev_v1_xxserp_dev odoo.modules.loading: Modules loaded. 
+2024-06-13 07:35:05,829 3780 INFO dev_v1_xxserp_dev odoo.modules.registry: Registry loaded in 54.387s 
+2024-06-13 07:35:05,838 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module base: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,146 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,199 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module auth_totp: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,205 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module base_import: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,217 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module bus: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,220 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_editor: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,249 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_kanban_gauge: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:06,250 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_module: module web_tour: loading translation file zh_CN for language zh_CN 
+2024-06-13 07:35:07,250 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.res_users: Login successful for db:dev_v1_xxserp_dev login:admin from 127.0.0.1 
+2024-06-13 07:35:07,264 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:07] "POST /web/database/create HTTP/1.1" 303 - 16355 55.602 10.298
+2024-06-13 07:35:07,589 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-06-13 07:35:07,716 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:07] "GET /web HTTP/1.1" 303 - 9 0.004 0.131
+2024-06-13 07:35:07,948 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='error' in template 185. Replace by @t-out 
+2024-06-13 07:35:07,949 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='message' in template 185. Replace by @t-out 
+2024-06-13 07:35:07,974 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc="title or 'XX ERP'" in template 181. Replace by @t-out 
+2024-06-13 07:35:07,975 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='request.csrf_token(None)' in template 181. Replace by @t-out 
+2024-06-13 07:35:07,975 3780 WARNING dev_v1_xxserp_dev odoo.addons.base.models.ir_qweb: Found deprecated directive @t-esc='debug' in template 181. Replace by @t-out 
+2024-06-13 07:35:13,296 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:13] "GET /web/login HTTP/1.1" 200 - 82 0.061 5.388
+2024-06-13 07:35:13,321 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:13] "GET /web/assets/15-efd3db1/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.002 0.016
+2024-06-13 07:35:13,738 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:13] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.005 0.122
+2024-06-13 07:35:13,758 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:13] "GET /web/assets/16-d5051b9/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.007 0.139
+2024-06-13 07:35:14,426 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:14] "GET /web/assets/17-0b406d6/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.005 0.338
+2024-06-13 07:35:14,658 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:14] "GET /web/webclient/translations/1718264114643 HTTP/1.1" 200 - 5 0.010 0.004
+2024-06-13 07:35:14,997 3780 INFO dev_v1_xxserp_dev werkzeug: 127.0.0.1 - - [13/Jun/2024 07:35:14] "GET /web/webclient/translations/1718264114664 HTTP/1.1" 200 - 5 0.011 0.008
+2024-06-13 07:35:15,745 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2024-06-13 07:35:15,931 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_attachment: filestore gc 14 checked, 0 removed 
+2024-06-13 07:35:15,983 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.res_users: GC'd 0 user log entries 
+2024-06-13 07:35:16,007 3780 INFO dev_v1_xxserp_dev odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2024-06-13 07:35:16,052 3780 INFO dev_v1_xxserp_dev odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
